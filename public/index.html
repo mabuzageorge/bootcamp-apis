@@ -39,6 +39,11 @@
                         this.longestWord=result.data.longestWord;
                         this.shortestWord=result.data.shortestWord;
                         this.wordLengths=result.data.sum;
+                        setTimeout(()=>{
+                            this.longestWord='';
+                            this.shortestWord='';
+                            this.wordLengths='';
+                        },8000);
                     });
                 }
             }">
